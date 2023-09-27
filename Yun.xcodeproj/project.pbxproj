@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E8849612A5C69210013ADE0 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8849602A5C69210013ADE0 /* SplashView.swift */; };
 		7E9341A92A5B896500F8933A /* YunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9341A82A5B896500F8933A /* YunApp.swift */; };
 		7E9341AB2A5B896500F8933A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9341AA2A5B896500F8933A /* ContentView.swift */; };
 		7E9341AD2A5B896600F8933A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9341AC2A5B896600F8933A /* Assets.xcassets */; };
 		7E9341B12A5B896600F8933A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9341B02A5B896600F8933A /* Preview Assets.xcassets */; };
+		7E9341B82A5B8FF200F8933A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9341B72A5B8FF200F8933A /* History.swift */; };
+		7EE978172A5B940700D5FCA1 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE978162A5B940700D5FCA1 /* Photos.swift */; };
+		7EE978192A5B94F100D5FCA1 /* Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE978182A5B94F100D5FCA1 /* Love.swift */; };
+		7EE9781B2A5B9A4F00D5FCA1 /* TimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9781A2A5B9A4F00D5FCA1 /* TimeLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E8849602A5C69210013ADE0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		7E9341A52A5B896500F8933A /* Yun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9341A82A5B896500F8933A /* YunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YunApp.swift; sourceTree = "<group>"; };
 		7E9341AA2A5B896500F8933A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E9341AC2A5B896600F8933A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E9341AE2A5B896600F8933A /* Yun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yun.entitlements; sourceTree = "<group>"; };
 		7E9341B02A5B896600F8933A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E9341B72A5B8FF200F8933A /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		7EE978162A5B940700D5FCA1 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		7EE978182A5B94F100D5FCA1 /* Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love.swift; sourceTree = "<group>"; };
+		7EE9781A2A5B9A4F00D5FCA1 /* TimeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				7E9341A82A5B896500F8933A /* YunApp.swift */,
 				7E9341AA2A5B896500F8933A /* ContentView.swift */,
+				7EE978182A5B94F100D5FCA1 /* Love.swift */,
+				7EE978162A5B940700D5FCA1 /* Photos.swift */,
+				7E9341B72A5B8FF200F8933A /* History.swift */,
+				7EE9781A2A5B9A4F00D5FCA1 /* TimeLine.swift */,
+				7E8849602A5C69210013ADE0 /* SplashView.swift */,
 				7E9341AC2A5B896600F8933A /* Assets.xcassets */,
 				7E9341AE2A5B896600F8933A /* Yun.entitlements */,
 				7E9341AF2A5B896600F8933A /* Preview Content */,
@@ -139,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE978192A5B94F100D5FCA1 /* Love.swift in Sources */,
+				7EE978172A5B940700D5FCA1 /* Photos.swift in Sources */,
+				7E9341B82A5B8FF200F8933A /* History.swift in Sources */,
 				7E9341AB2A5B896500F8933A /* ContentView.swift in Sources */,
+				7EE9781B2A5B9A4F00D5FCA1 /* TimeLine.swift in Sources */,
 				7E9341A92A5B896500F8933A /* YunApp.swift in Sources */,
+				7E8849612A5C69210013ADE0 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +285,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Yun/Preview Content\"";
+				DEVELOPMENT_TEAM = VP5MJD3LR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Yun;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -301,8 +323,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Yun/Preview Content\"";
+				DEVELOPMENT_TEAM = VP5MJD3LR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Yun;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
